@@ -14,7 +14,7 @@ elements = A[5].split()
 ntype = np.array(A[6].split(),dtype=int)
 # print ntype, elements
 
-# a,b,c = ntype
+ a,b,c = ntype
 elemlist = []
 for i, type in enumerate(ntype):
     elemlist += [elements[i]]*type
